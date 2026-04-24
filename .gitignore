@@ -1,0 +1,43 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local exports
+*.log
+*.evtx
+*.pcap
+*.pcapng
+*.csv
+*.xlsx
+
+# Incident evidence and sensitive local working data
+evidence/
+exports/
+captures/
+screenshots/
+artifacts/
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.crt
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
